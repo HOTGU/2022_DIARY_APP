@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="" id="js-form">
+            <select name="month" id="js-month"></select>
+            <select name="day" id="js-day"></select>
+            <input type="text" id="js-title" name="title" placeholder="제목" />
+            <textarea
+                name="description"
+                id="js-description"
+                cols="30"
+                rows="10"
+                placeholder="메모장"
+            ></textarea>
+            <button id="js-submitBtn">등록</button>
+        </form>
+
+        <button id="js-fetchAllBtn">모두보기</button>
+        <div id="js-plansList"></div>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
