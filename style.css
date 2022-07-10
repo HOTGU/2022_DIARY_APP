@@ -61,6 +61,7 @@ button {
     min-width: 250px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .plan-date {
     width: 100%;
@@ -81,6 +82,24 @@ button {
     font-weight: 200;
     word-break: keep-all;
     white-space: pre-wrap;
+}
+
+.btn-wrapper {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    display: flex;
+    gap: 3px;
+}
+.circle-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
 ::-webkit-scrollbar {
